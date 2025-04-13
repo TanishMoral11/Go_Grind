@@ -2,12 +2,17 @@ package main
 
 import (
 	"fmt"
-	"go_grind/myutils"
 )
 
 func main() {
 	fmt.Println("Hello World!")
 	fmt.Println("-----------------------")
 
-	myutils.PrintMessage()
+	// myutils.PrintMessage()
+
+	var name string = "Tanish";
+	fmt.Println(name);
+
+	person := "Tanish"
+	fmt.Print("Hello ", person, "\n")
 }
