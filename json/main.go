@@ -19,7 +19,7 @@ func main() {
 		IsAdult: true,
 	}
 
-	fmt.Println("Person Data : ", person)
+	// fmt.Println("Person Data : ", person)
 
 	//Convert person into JSON Encoding (Marshalling)
 
