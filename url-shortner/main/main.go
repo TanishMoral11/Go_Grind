@@ -83,6 +83,7 @@ func ShortURLHandler(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(response)
 }
 
+
 func redirectURLHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.URL.Path[len("/redirect/"):]
 	url, err := getURL(id)
